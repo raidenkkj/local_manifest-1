@@ -33,10 +33,6 @@
  <!-- Remove HALs --> 
          
          <remove-project name="LineageOS/android_hardware_qcom_audio" /> 
-  
- <!-- Remove RiceDroid Vendor --> 
-  
-         <remove-project name="RiceDroid/android_vendor_rice" /> 
                   
  <!-- Addition --> 
   
