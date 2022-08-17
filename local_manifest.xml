@@ -9,6 +9,8 @@
                 fetch="https://github.com/karann2354" />
         <remote name="mi-sdm439"
                 fetch="https://github.com/mi-sdm439" />
+        <remote name="fm"
+                fetch="https://github.com/arrowos" />
 
 <!-- Device Trees -->
     
@@ -43,6 +45,7 @@
 <!-- Extras -->
 
 	<project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="mi-sdm439" revision="lineage-18.1"/>
+        <project path="vendor/qcom/opensource/libfmjni"  name="android_vendor_qcom_opensource_libfmjni" remote="fm" revision="arrow-12.1" />
 	<project path="vendor/miuicamera" name="vendor_miuicamera" remote="karan" revision="12.1" />
 
 </manifest>
