@@ -3,7 +3,7 @@
 
 <!-- Remotes -->
 
-        <remote name="i_forgor"
+        <remote name="me"
                 fetch="https://github.com/newuserbtw" />
 
         <remote name="karan"
