@@ -43,10 +43,15 @@
         <project path="system/core" name="android_system_core" remote="me" revision="twelve-L" />
 	
 <!-- Extras -->
-
+        
+        <remove project name="android_vendor_qcom_opensource_libfmjni" />
 	<project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="mi-sdm439" revision="lineage-18.1"/>
         <project path="vendor/qcom/opensource/libfmjni"  name="android_vendor_qcom_opensource_libfmjni" remote="fm" revision="arrow-12.1" />
 	<project path="vendor/miuicamera" name="vendor_miuicamera" remote="karan" revision="12.1" />
 
 </manifest>
+
+
+
+
 
