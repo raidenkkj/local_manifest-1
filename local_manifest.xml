@@ -11,22 +11,20 @@
             
 <!-- Device Trees -->
     
-        <project path="device/xiaomi/Mi439" name="androiddevice_xiaomi_Mi439" remote="me" revision="a12/master" />   
-        <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common" remote="me" revision="a12/master" />
+        <project path="device/xiaomi/Mi439" name="androiddevice_xiaomi_Mi439" remote="karan" revision="a12/master" />   
+        <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common" remote="karan" revision="a12/master" />
     
 <!-- Kernel Tree -->
     
         <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_sdm439" remote="karan" revision="12.1"  clone-depth="1" />
            
-<!-- Vendor Trees -->
-    
-        <project path="vendor/xiaomi/Mi439"  name="vendor_xiaomi_Mi439" remote="karan" revision="12.1"  /> 
+<!-- Vendor Trees --> 
+	
         <project path="vendor/xiaomi/mithorium-common"  name="vendor_xiaomi_mithorium-common" remote="karan" revision="12.1" />
-    
+	
 <!-- HALs -->
-
+	
         <remove-project name="android_hardware_qcom_wlan" />
-
 	<project path="hardware/qcom-caf/wlan" name="msm8953_hals" remote="karan" revision="wlan"/>
 	<project path="hardware/qcom-caf/msm8953/audio" name="msm8953_hals" remote="karan" revision="audio"/>
 	<project path="hardware/qcom-caf/msm8953/media" name="msm8953_hals" remote="karan" revision="media"/>
@@ -44,7 +42,5 @@
 <!-- Extras -->
 
 	<project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="karan" revision="lineage-18.1" />
-
-	<project path="vendor/miuicamera" name="vendor_miuicamera" remote="me" revision="12.1" />
 
 </manifest>
